@@ -1,0 +1,7 @@
+Value route_source (ospf.\d+)
+Value routes (\d+)
+Value backup (\d+)
+Value memory (\d+)
+
+Start
+  ^${route_source}\s+${routes}\s+${backup}\s+(\d)\s+${memory} -> Record
