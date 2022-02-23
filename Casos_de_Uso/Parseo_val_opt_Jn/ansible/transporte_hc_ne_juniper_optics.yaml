@@ -1,0 +1,57 @@
+- hosts: "{{nodo}}"
+  connection: network_cli
+  gather_facts: false
+  serial: 5
+  strategy: free
+
+  tasks:
+
+  - debug:
+      msg: "********************* START *************************************"
+
+  - set_fact:
+      nodo: "{{inventory_hostname}}"
+
+  - debug:
+      msg: "Inicio nodo: {{nodo}}"
+
+  - set_fact:
+      ansible_network_os: junos
+
+###################  Ejecucion de comando  ################
+  - name: Comando Junos
+    junos_command:
+      commands:
+        - 'show interfaces diagnostics optics | match "Lane|Physical|Laser output power|Laser receiver power|Module temperature |Laser bias current  " | except "temperature high|temperature low|alarm" | no-more'
+    register: output_cmd
+    until: output_cmd is not failed
+    retries: 3
+    delay: 5
+    ignore_errors: yes
+
+#######  Copio info obtenido a un archivo en directorio de backups #########
+  - name: Creo directorio health_check del nodo si no existe
+    file:
+      path: "{{PATH_HC_NE}}/{{nodo}}/output"
+      state: directory
+
+  - name: copio el output del display a archivo en directorio de HealtCheck
+    copy:
+      content: "{{ output_cmd.stdout[0] }}"
+      dest: "{{PATH_HC_NE}}/{{nodo}}/output/JUNIPER_{{nodo}}_optics.txt"
+      mode: 0644
+    when:
+      output_cmd is not failed
+    delegate_to: localhost
+
+  - name: failed copio VACIO al archivo en directorio de HealtCheck
+    copy:
+      content: "VACIO"
+      dest: "{{PATH_HC_NE}}/{{nodo}}/output/JUNIPER_{{nodo}}_optics.txt"
+      mode: 0644
+    when:
+      output_cmd is failed
+    delegate_to: localhost
+
+  - debug:
+      msg: "********************* END *************************************"
