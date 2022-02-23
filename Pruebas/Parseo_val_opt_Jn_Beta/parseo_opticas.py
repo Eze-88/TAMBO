@@ -3,8 +3,8 @@ from re import template
 import textfsm
 
 #template = "c:/Users/u559950/Documents/GIT/TAMBO/Pruebas/Parseo valores opticos Juniper BETA/parseo.fsm"
-template = "c:/Users/u559950/Documents/GIT/TAMBO/Pruebas/Parseo valores opticos Juniper BETA/parseo.fsm"
-output_txt = "c:/Users/u559950/Documents/GIT/TAMBO/Pruebas/Parseo valores opticos Juniper BETA/crudo.txt"
+template = "c:/Users/u559950/Documents/Desarrollo\ y\ programacion/TAMBO/Casos_de_Uso/Parseo_val_opt_Jn/parseo.fsm"
+output_txt = "c:/Users/u559950/Documents/Desarrollo\ y\ programacion/TAMBO/Casos_de_Uso/Parseo_val_opt_Jn/crudo.txt"
 
 with open(template) as f, open(output_txt) as f_2:  # abro los dos archivos, el del template y el del output del equipo
     re_table = textfsm.TextFSM(f) # inicializo el parser con el template
