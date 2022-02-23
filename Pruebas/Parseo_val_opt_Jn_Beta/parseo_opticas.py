@@ -2,6 +2,7 @@ from itertools import count
 from re import template
 import textfsm
 
+#template = "c:/Users/u559950/Documents/GIT/TAMBO/Pruebas/Parseo valores opticos Juniper BETA/parseo.fsm"
 template = "c:/Users/u559950/Documents/GIT/TAMBO/Pruebas/Parseo valores opticos Juniper BETA/parseo.fsm"
 output_txt = "c:/Users/u559950/Documents/GIT/TAMBO/Pruebas/Parseo valores opticos Juniper BETA/crudo.txt"
 
