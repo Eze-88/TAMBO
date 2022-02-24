@@ -1,5 +1,3 @@
-from itertools import count
-from re import template
 import textfsm
 
 template = "c:/Users/u559950/Documents/Desarrollo y programacion/TAMBO/Pruebas/Parseo_val_opt_Jn_Beta/parseo.fsm"
