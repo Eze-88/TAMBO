@@ -1,7 +1,7 @@
 import textfsm
 
-template = "c:/Users/u559950/Documents/Desarrollo y programacion/TAMBO/Pruebas/Parseo_val_opt_Jn_Beta/parseo.fsm"
-output_txt = "c:/Users/u559950/Documents/Desarrollo y programacion/TAMBO/Pruebas/Parseo_val_opt_Jn_Beta/crudo.txt"
+template = "c:/Users/u559950/Documents/Desarrollo y programacion/TAMBO/Pruebas/Parseo_val_opt_Jn_Beta/parseo_vty.fsm"
+output_txt = "c:/Users/u559950/Documents/Desarrollo y programacion/TAMBO/Pruebas/Parseo_val_opt_Jn_Beta/crudo_vty.txt"
 
 with open(template) as f, open(output_txt) as f_2:  # abro los dos archivos, el del template y el del output del equipo
     re_table = textfsm.TextFSM(f) # inicializo el parser con el template
@@ -12,6 +12,4 @@ with open(template) as f, open(output_txt) as f_2:  # abro los dos archivos, el 
 
     i = 0   # indice para contar los resultados obtenidos
     for x in dict_result:
-        print(x["interface"] + " " + x["lane"]+ " " + x["amp"]+ " " + x["OutputPower"]+ " " + x["RxPower"]+ " " + x["grados"]+ " " + x["OutputHighWarning"]+ " " + x["OutputLowWarning"]+ " " + x["RxHighWarning"]+ " " + x["RxLowWarning"])
-        i+=1
-    print(i)
+        print(x["line"] + " " + x["privilege"])
