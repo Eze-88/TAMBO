@@ -1,0 +1,6 @@
+Value RSPA (\S+)
+Value RSPB (\S+)
+
+Start
+  ^Node ${RSPA} is in ACTIVE role
+  ^Backup node in ${RSPB} is ready -> Record

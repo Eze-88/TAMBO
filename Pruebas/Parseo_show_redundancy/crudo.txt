@@ -1,0 +1,34 @@
+Fri Mar 25 09:37:56.447 ARG
+Redundancy information for node 0/RSP1/CPU0:
+==========================================
+Node 0/RSP1/CPU0 is in ACTIVE role
+Node Redundancy Partner (0/RSP0/CPU0) is in STANDBY role
+Standby node in 0/RSP0/CPU0 is ready
+Standby node in 0/RSP0/CPU0 is NSR-not-configured
+Node 0/RSP1/CPU0 is in process group PRIMARY role
+Process Redundancy Partner (0/RSP0/CPU0) is in BACKUP role
+Backup node in 0/RSP0/CPU0 is ready
+Backup node in 0/RSP0/CPU0 is NSR-ready
+
+Group            Primary         Backup          Status         
+---------        ---------       ---------       ---------      
+v6-routing       0/RSP1/CPU0     0/RSP0/CPU0     Ready          
+mcast-routing    0/RSP1/CPU0     0/RSP0/CPU0     Ready          
+netmgmt          0/RSP1/CPU0     0/RSP0/CPU0     Ready          
+v4-routing       0/RSP1/CPU0     0/RSP0/CPU0     Ready          
+central-services 0/RSP1/CPU0     0/RSP0/CPU0     Ready          
+dlrsc            0/RSP1/CPU0     0/RSP0/CPU0     Ready          
+dsc              0/RSP1/CPU0     0/RSP0/CPU0     Ready          
+
+Reload and boot info
+----------------------
+A9K-RSP880-SE reloaded Wed Oct 28 02:19:35 2020: 1 year, 21 weeks, 1 day, 7 hours, 18 minutes ago
+Active node booted Wed Oct 28 02:17:56 2020: 1 year, 21 weeks, 1 day, 7 hours, 20 minutes ago
+Last switch-over Thu Jul 15 11:19:34 2021: 36 weeks, 22 hours, 18 minutes ago
+Standby node boot Thu Jul 15 11:21:44 2021: 36 weeks, 22 hours, 16 minutes ago
+Standby node last went not ready Thu Jul 15 11:23:27 2021: 36 weeks, 22 hours, 14 minutes ago
+Standby node last went ready Thu Jul 15 11:24:27 2021: 36 weeks, 22 hours, 13 minutes ago
+There has been 1 switch-over since reload
+
+Active node reload  Cause: MBI-HELLO reloading node on receiving reload notification
+Standby node reload "Cause: User initiated forced reload all"
