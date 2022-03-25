@@ -1,0 +1,6 @@
+Value horario (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})
+Value clase (\S+)
+Value descripcion (.+)
+
+Start
+  ^${horario} ART  ${clase}  ${descripcion} -> Record

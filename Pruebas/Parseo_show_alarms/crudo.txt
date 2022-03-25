@@ -1,0 +1,4 @@
+2 alarms currently active
+Alarm time               Class  Description
+2020-09-04 01:48:56 ART  Major  FPC 5 PIC 1 Failure
+2020-09-04 01:48:56 ART  Major  FPC 5 PIC 0 Failure
