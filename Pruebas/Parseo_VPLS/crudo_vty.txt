@@ -1,0 +1,4 @@
+user-interface maximum-vty 15
+user-interface vty 0 11
+ user privilege level 3
+user-interface vty 12 14

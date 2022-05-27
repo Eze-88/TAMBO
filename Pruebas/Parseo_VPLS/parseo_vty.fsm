@@ -1,0 +1,7 @@
+Value Filldown line (\d+\s+\d)
+Value Required privilege (\d)
+
+
+Start
+  ^user-interface vty +${line}
+  ^\s+user privilege level +${privilege} -> Record

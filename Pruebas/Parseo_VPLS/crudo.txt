@@ -1,0 +1,702 @@
+Physical interface: ge-1/0/0
+    Laser bias current                        :  23.948 mA
+    Laser output power                        :  2.3160 mW / 3.65 dBm
+    Module temperature                        :  40 degrees C / 103 degrees F
+    Laser receiver power                      :  0.0436 mW / -13.60 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  5.0120 mW / 7.00 dBm
+    Laser output power low warning threshold  :  0.6310 mW / -2.00 dBm
+Physical interface: ge-1/0/1
+    Laser bias current                        :  40.228 mA
+    Laser output power                        :  0.6620 mW / -1.79 dBm
+    Module temperature                        :  29 degrees C / 84 degrees F
+    Laser receiver power                      :  0.1553 mW / -8.09 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.2580 mW / 1.00 dBm
+    Laser output power low warning threshold  :  0.1990 mW / -7.01 dBm
+Physical interface: ge-1/0/2
+    Laser bias current                        :  4.920 mA
+    Laser output power                        :  0.2760 mW / -5.59 dBm
+    Module temperature                        :  25 degrees C / 77 degrees F
+    Laser receiver power                      :  0.2474 mW / -6.07 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0790 mW / -11.02 dBm
+Physical interface: ge-1/0/3
+    Laser bias current                        :  47.386 mA
+    Laser output power                        :  0.5830 mW / -2.34 dBm
+    Module temperature                        :  26 degrees C / 78 degrees F
+    Laser receiver power                      :  0.1309 mW / -8.83 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: ge-1/0/4
+    Laser bias current                        :  47.856 mA
+    Laser output power                        :  0.7040 mW / -1.52 dBm
+    Module temperature                        :  25 degrees C / 77 degrees F
+    Laser receiver power                      :  0.1742 mW / -7.59 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: ge-1/0/5
+    Laser bias current                        :  15.242 mA
+    Laser output power                        :  0.2770 mW / -5.58 dBm
+    Module temperature                        :  24 degrees C / 76 degrees F
+    Laser receiver power                      :  0.1816 mW / -7.41 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0890 mW / -10.51 dBm
+Physical interface: ge-1/0/6
+    Laser bias current                        :  15.184 mA
+    Laser output power                        :  0.2220 mW / -6.54 dBm
+    Module temperature                        :  27 degrees C / 81 degrees F
+    Laser receiver power                      :  0.0853 mW / -10.69 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0890 mW / -10.51 dBm
+Physical interface: ge-1/0/8
+    Laser bias current                        :  15.242 mA
+    Laser output power                        :  0.3230 mW / -4.91 dBm
+    Module temperature                        :  27 degrees C / 80 degrees F
+    Laser receiver power                      :  0.1938 mW / -7.13 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0890 mW / -10.51 dBm
+Physical interface: ge-1/1/1
+    Laser bias current                        :  7.276 mA
+    Laser output power                        :  0.3620 mW / -4.41 dBm
+    Module temperature                        :  25 degrees C / 77 degrees F
+    Laser receiver power                      :  0.0003 mW / -35.23 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0790 mW / -11.02 dBm
+Physical interface: ge-1/1/2
+    Laser bias current                        :  6.992 mA
+    Laser output power                        :  0.3660 mW / -4.37 dBm
+    Module temperature                        :  24 degrees C / 76 degrees F
+    Laser receiver power                      :  0.0005 mW / -33.01 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0790 mW / -11.02 dBm
+Physical interface: ge-1/1/3
+    Laser bias current                        :  9.132 mA
+    Laser output power                        :  1.0870 mW / 0.36 dBm
+    Module temperature                        :  25 degrees C / 77 degrees F
+    Laser receiver power                      :  0.0005 mW / -33.01 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  2.5110 mW / 4.00 dBm
+    Laser output power low warning threshold  :  0.5010 mW / -3.00 dBm
+Physical interface: ge-1/1/6
+    Laser bias current                        :  33.858 mA
+    Laser output power                        :  0.6500 mW / -1.87 dBm
+    Module temperature                        :  26 degrees C / 79 degrees F
+    Laser receiver power                      :  0.1968 mW / -7.06 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.2580 mW / 1.00 dBm
+    Laser output power low warning threshold  :  0.1990 mW / -7.01 dBm
+Physical interface: xe-2/0/0
+    Laser bias current                        :  35.890 mA
+    Laser output power                        :  0.5890 mW / -2.30 dBm
+    Module temperature                        :  32 degrees C / 90 degrees F
+    Laser receiver power                      :  0.4443 mW / -3.52 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-2/0/1
+    Laser bias current                        :  39.376 mA
+    Laser output power                        :  0.5350 mW / -2.72 dBm
+    Module temperature                        :  31 degrees C / 88 degrees F
+    Laser receiver power                      :  0.3549 mW / -4.50 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-2/0/2
+    Laser bias current                        :  8.668 mA
+    Laser output power                        :  0.5460 mW / -2.63 dBm
+    Module temperature                        :  32 degrees C / 89 degrees F
+    Laser receiver power                      :  0.5058 mW / -2.96 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7940 mW / -1.00 dBm
+    Laser output power low warning threshold  :  0.3160 mW / -5.00 dBm
+Physical interface: xe-2/0/3
+    Laser bias current                        :  34.010 mA
+    Laser output power                        :  0.6650 mW / -1.77 dBm
+    Module temperature                        :  31 degrees C / 88 degrees F
+    Laser receiver power                      :  0.0011 mW / -29.59 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-2/1/0
+    Laser bias current                        :  7.814 mA
+    Laser output power                        :  0.6010 mW / -2.21 dBm
+    Module temperature                        :  31 degrees C / 87 degrees F
+    Laser receiver power                      :  0.0006 mW / -32.22 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7940 mW / -1.00 dBm
+    Laser output power low warning threshold  :  0.3160 mW / -5.00 dBm
+Physical interface: xe-2/1/1
+    Laser bias current                        :  7.832 mA
+    Laser output power                        :  0.5900 mW / -2.29 dBm
+    Module temperature                        :  33 degrees C / 92 degrees F
+    Laser receiver power                      :  0.0004 mW / -33.98 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7940 mW / -1.00 dBm
+    Laser output power low warning threshold  :  0.3160 mW / -5.00 dBm
+Physical interface: xe-2/1/2
+    Laser bias current                        :  7.106 mA
+    Laser output power                        :  0.6090 mW / -2.15 dBm
+    Module temperature                        :  23 degrees C / 73 degrees F
+    Laser receiver power                      :  0.0001 mW / -40.00 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: xe-2/2/1
+    Laser bias current                        :  6.272 mA
+    Laser output power                        :  0.6000 mW / -2.22 dBm
+    Module temperature                        :  28 degrees C / 82 degrees F
+    Laser receiver power                      :  0.5344 mW / -2.72 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: xe-2/2/2
+    Laser bias current                        :  55.836 mA
+    Laser output power                        :  1.1010 mW / 0.42 dBm
+    Module temperature                        :  29 degrees C / 85 degrees F
+    Laser receiver power                      :  0.1212 mW / -9.16 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  2.5110 mW / 4.00 dBm
+    Laser output power low warning threshold  :  0.3380 mW / -4.71 dBm
+Physical interface: xe-2/2/3
+    Laser bias current                        :  50.908 mA
+    Laser output power                        :  1.1110 mW / 0.46 dBm
+    Module temperature                        :  28 degrees C / 83 degrees F
+    Laser receiver power                      :  0.0759 mW / -11.20 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  2.5110 mW / 4.00 dBm
+    Laser output power low warning threshold  :  0.3380 mW / -4.71 dBm
+Physical interface: xe-2/3/0
+    Laser bias current                        :  59.126 mA
+    Laser output power                        :  1.0910 mW / 0.38 dBm
+    Module temperature                        :  28 degrees C / 83 degrees F
+    Laser receiver power                      :  0.0282 mW / -15.50 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  2.5110 mW / 4.00 dBm
+    Laser output power low warning threshold  :  0.3380 mW / -4.71 dBm
+Physical interface: xe-2/3/1
+    Laser bias current                        :  7.022 mA
+    Laser output power                        :  0.6040 mW / -2.19 dBm
+    Module temperature                        :  30 degrees C / 86 degrees F
+    Laser receiver power                      :  0.0004 mW / -33.98 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7940 mW / -1.00 dBm
+    Laser output power low warning threshold  :  0.3160 mW / -5.00 dBm
+Physical interface: xe-2/3/2
+    Laser bias current                        :  43.728 mA
+    Laser output power                        :  0.6710 mW / -1.73 dBm
+    Module temperature                        :  29 degrees C / 84 degrees F
+    Laser receiver power                      :  0.2661 mW / -5.75 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.2580 mW / 1.00 dBm
+    Laser output power low warning threshold  :  0.1990 mW / -7.01 dBm
+Physical interface: xe-3/0/0
+    Laser bias current                        :  0.000 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  24 degrees C / 75 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  On
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-3/0/1
+    Laser bias current                        :  0.002 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  24 degrees C / 75 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-3/0/2
+    Laser bias current                        :  0.000 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  23 degrees C / 74 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  On
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-3/0/3
+    Laser bias current                        :  0.000 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  24 degrees C / 74 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  On
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: et-3/1/0
+    Module temperature                        :  31 degrees C / 89 degrees F
+    Laser output power high warning threshold :  2.5110 mW / 4.00 dBm
+    Laser output power low warning threshold  :  0.6300 mW / -2.01 dBm
+  Lane 0
+    Laser bias current                        :  51.428 mA
+    Laser output power                        :  1.232 mW / 0.91 dBm
+    Laser receiver power                      :  1.345 mW / 1.29 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+  Lane 1
+    Laser bias current                        :  51.877 mA
+    Laser output power                        :  1.522 mW / 1.82 dBm
+    Laser receiver power                      :  1.269 mW / 1.04 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+  Lane 2
+    Laser bias current                        :  51.700 mA
+    Laser output power                        :  1.286 mW / 1.09 dBm
+    Laser receiver power                      :  1.231 mW / 0.90 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+  Lane 3
+    Laser bias current                        :  50.630 mA
+    Laser output power                        :  1.199 mW / 0.79 dBm
+    Laser receiver power                      :  1.398 mW / 1.46 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+Physical interface: xe-3/2/0
+    Laser bias current                        :  0.002 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  24 degrees C / 75 degrees F
+    Laser receiver power                      :  0.0001 mW / -40.00 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: xe-3/2/1
+    Laser bias current                        :  0.002 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  23 degrees C / 74 degrees F
+    Laser receiver power                      :  0.0001 mW / -40.00 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: xe-3/2/2
+    Laser bias current                        :  0.002 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  23 degrees C / 74 degrees F
+    Laser receiver power                      :  0.0001 mW / -40.00 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: xe-3/2/3
+    Laser bias current                        :  0.002 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  25 degrees C / 78 degrees F
+    Laser receiver power                      :  0.0001 mW / -40.00 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  On
+    Laser output power high warning threshold :  0.7940 mW / -1.00 dBm
+    Laser output power low warning threshold  :  0.3160 mW / -5.00 dBm
+Physical interface: et-3/3/0
+    Module temperature                        :  26 degrees C / 78 degrees F
+    Laser output power high warning threshold :  2.5110 mW / 4.00 dBm
+    Laser output power low warning threshold  :  0.6300 mW / -2.01 dBm
+  Lane 0
+    Laser bias current                        :  50.486 mA
+    Laser output power                        :  1.552 mW / 1.91 dBm
+    Laser receiver power                      :  0.560 mW / -2.52 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+  Lane 1
+    Laser bias current                        :  50.605 mA
+    Laser output power                        :  1.454 mW / 1.63 dBm
+    Laser receiver power                      :  0.545 mW / -2.63 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+  Lane 2
+    Laser bias current                        :  50.664 mA
+    Laser output power                        :  1.407 mW / 1.48 dBm
+    Laser receiver power                      :  0.750 mW / -1.25 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+  Lane 3
+    Laser bias current                        :  50.444 mA
+    Laser output power                        :  1.225 mW / 0.88 dBm
+    Laser receiver power                      :  0.457 mW / -3.40 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+Physical interface: xe-7/0/0
+    Laser bias current                        :  39.732 mA
+    Laser output power                        :  0.6770 mW / -1.69 dBm
+    Module temperature                        :  32 degrees C / 89 degrees F
+    Laser receiver power                      :  0.4042 mW / -3.93 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.2580 mW / 1.00 dBm
+    Laser output power low warning threshold  :  0.1990 mW / -7.01 dBm
+Physical interface: xe-7/0/1
+    Laser bias current                        :  41.326 mA
+    Laser output power                        :  0.6390 mW / -1.94 dBm
+    Module temperature                        :  33 degrees C / 91 degrees F
+    Laser receiver power                      :  0.4682 mW / -3.30 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.2580 mW / 1.00 dBm
+    Laser output power low warning threshold  :  0.1990 mW / -7.01 dBm
+Physical interface: xe-7/0/2
+    Laser bias current                        :  6.434 mA
+    Laser output power                        :  0.5960 mW / -2.25 dBm
+    Module temperature                        :  29 degrees C / 85 degrees F
+    Laser receiver power                      :  0.5395 mW / -2.68 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: xe-7/0/3
+    Laser bias current                        :  35.274 mA
+    Laser output power                        :  0.5730 mW / -2.42 dBm
+    Module temperature                        :  31 degrees C / 87 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-7/1/0
+    Laser bias current                        :  36.516 mA
+    Laser output power                        :  0.6030 mW / -2.20 dBm
+    Module temperature                        :  32 degrees C / 90 degrees F
+    Laser receiver power                      :  0.4902 mW / -3.10 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-7/1/1
+    Laser bias current                        :  7.018 mA
+    Laser output power                        :  0.5990 mW / -2.23 dBm
+    Module temperature                        :  32 degrees C / 90 degrees F
+    Laser receiver power                      :  0.4433 mW / -3.53 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: xe-7/1/2
+    Laser bias current                        :  6.594 mA
+    Laser output power                        :  0.5940 mW / -2.26 dBm
+    Module temperature                        :  30 degrees C / 86 degrees F
+    Laser receiver power                      :  0.4570 mW / -3.40 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: xe-7/1/3
+    Laser bias current                        :  7.738 mA
+    Laser output power                        :  0.5420 mW / -2.66 dBm
+    Module temperature                        :  35 degrees C / 95 degrees F
+    Laser receiver power                      :  0.5962 mW / -2.25 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7940 mW / -1.00 dBm
+    Laser output power low warning threshold  :  0.3160 mW / -5.00 dBm
+Physical interface: xe-7/2/0
+    Laser bias current                        :  40.512 mA
+    Laser output power                        :  0.6000 mW / -2.22 dBm
+    Module temperature                        :  32 degrees C / 90 degrees F
+    Laser receiver power                      :  0.2268 mW / -6.44 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-7/2/1
+    Laser bias current                        :  7.866 mA
+    Laser output power                        :  0.6590 mW / -1.81 dBm
+    Module temperature                        :  31 degrees C / 87 degrees F
+    Laser receiver power                      :  0.6341 mW / -1.98 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7940 mW / -1.00 dBm
+    Laser output power low warning threshold  :  0.3160 mW / -5.00 dBm
+Physical interface: xe-7/2/2
+    Laser bias current                        :  57.476 mA
+    Laser output power                        :  1.1800 mW / 0.72 dBm
+    Module temperature                        :  28 degrees C / 82 degrees F
+    Laser receiver power                      :  0.0146 mW / -18.36 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  2.5110 mW / 4.00 dBm
+    Laser output power low warning threshold  :  0.3380 mW / -4.71 dBm
+Physical interface: xe-7/2/3
+    Laser bias current                        :  36.684 mA
+    Laser output power                        :  0.7060 mW / -1.51 dBm
+    Module temperature                        :  29 degrees C / 85 degrees F
+    Laser receiver power                      :  0.0912 mW / -10.40 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-7/3/0
+    Laser bias current                        :  7.696 mA
+    Laser output power                        :  0.6270 mW / -2.03 dBm
+    Module temperature                        :  28 degrees C / 82 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7940 mW / -1.00 dBm
+    Laser output power low warning threshold  :  0.3160 mW / -5.00 dBm
+Physical interface: xe-7/3/1
+    Laser bias current                        :  6.728 mA
+    Laser output power                        :  0.5990 mW / -2.23 dBm
+    Module temperature                        :  25 degrees C / 78 degrees F
+    Laser receiver power                      :  0.0001 mW / -40.00 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: xe-7/3/2
+    Laser bias current                        :  7.916 mA
+    Laser output power                        :  0.6140 mW / -2.12 dBm
+    Module temperature                        :  23 degrees C / 73 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7940 mW / -1.00 dBm
+    Laser output power low warning threshold  :  0.3160 mW / -5.00 dBm
+Physical interface: xe-8/0/0
+    Laser bias current                        :  0.000 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  23 degrees C / 73 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  On
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-8/0/1
+    Laser bias current                        :  0.002 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  23 degrees C / 73 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-8/0/2
+    Laser bias current                        :  0.000 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  21 degrees C / 70 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  On
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: xe-8/0/3
+    Laser bias current                        :  0.002 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  23 degrees C / 73 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.1220 mW / 0.50 dBm
+    Laser output power low warning threshold  :  0.1510 mW / -8.21 dBm
+Physical interface: et-8/1/0
+    Module temperature                        :  27 degrees C / 81 degrees F
+    Laser output power high warning threshold :  2.5110 mW / 4.00 dBm
+    Laser output power low warning threshold  :  0.6300 mW / -2.01 dBm
+  Lane 0
+    Laser bias current                        :  51.582 mA
+    Laser output power                        :  1.247 mW / 0.96 dBm
+    Laser receiver power                      :  1.150 mW / 0.61 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+  Lane 1
+    Laser bias current                        :  50.970 mA
+    Laser output power                        :  1.269 mW / 1.03 dBm
+    Laser receiver power                      :  1.227 mW / 0.89 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+  Lane 2
+    Laser bias current                        :  50.715 mA
+    Laser output power                        :  1.382 mW / 1.41 dBm
+    Laser receiver power                      :  1.301 mW / 1.14 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+  Lane 3
+    Laser bias current                        :  50.647 mA
+    Laser output power                        :  1.266 mW / 1.02 dBm
+    Laser receiver power                      :  1.188 mW / 0.75 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser receiver power high warning         :  Off
+    Laser receiver power low warning          :  Off
+Physical interface: xe-8/2/0
+    Laser bias current                        :  0.002 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  20 degrees C / 68 degrees F
+    Laser receiver power                      :  0.0001 mW / -40.00 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: xe-8/2/1
+    Laser bias current                        :  0.002 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  22 degrees C / 72 degrees F
+    Laser receiver power                      :  0.0001 mW / -40.00 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: xe-8/2/2
+    Laser bias current                        :  0.002 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  23 degrees C / 73 degrees F
+    Laser receiver power                      :  0.0001 mW / -40.00 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  On
+    Laser output power high warning threshold :  0.7940 mW / -1.00 dBm
+    Laser output power low warning threshold  :  0.3160 mW / -5.00 dBm
+Physical interface: xe-8/2/3
+    Laser bias current                        :  0.002 mA
+    Laser output power                        :  0.0000 mW / - Inf dBm
+    Module temperature                        :  22 degrees C / 71 degrees F
+    Laser receiver power                      :  0.0008 mW / -30.97 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.7900 mW / -1.02 dBm
+    Laser output power low warning threshold  :  0.3170 mW / -4.99 dBm
+Physical interface: ge-10/0/0
+    Laser bias current                        :  42.460 mA
+    Laser output power                        :  0.7040 mW / -1.52 dBm
+    Module temperature                        :  25 degrees C / 78 degrees F
+    Laser receiver power                      :  0.2294 mW / -6.39 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.2580 mW / 1.00 dBm
+    Laser output power low warning threshold  :  0.1990 mW / -7.01 dBm
+Physical interface: ge-10/0/5
+    Laser bias current                        :  15.914 mA
+    Laser output power                        :  0.3190 mW / -4.96 dBm
+    Module temperature                        :  28 degrees C / 82 degrees F
+    Laser receiver power                      :  0.1596 mW / -7.97 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0890 mW / -10.51 dBm
+Physical interface: ge-10/0/6
+    Laser bias current                        :  13.918 mA
+    Laser output power                        :  0.3210 mW / -4.93 dBm
+    Module temperature                        :  27 degrees C / 81 degrees F
+    Laser receiver power                      :  0.0442 mW / -13.55 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0890 mW / -10.51 dBm
+Physical interface: ge-10/0/7
+    Laser bias current                        :  11.124 mA
+    Laser output power                        :  0.2100 mW / -6.78 dBm
+    Module temperature                        :  24 degrees C / 76 degrees F
+    Laser receiver power                      :  0.1978 mW / -7.04 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0890 mW / -10.51 dBm
+Physical interface: ge-10/0/8
+    Laser bias current                        :  15.272 mA
+    Laser output power                        :  0.2810 mW / -5.51 dBm
+    Module temperature                        :  22 degrees C / 71 degrees F
+    Laser receiver power                      :  0.1681 mW / -7.74 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0890 mW / -10.51 dBm
+Physical interface: ge-10/0/9
+    Laser bias current                        :  12.982 mA
+    Laser output power                        :  0.2170 mW / -6.64 dBm
+    Module temperature                        :  24 degrees C / 76 degrees F
+    Laser receiver power                      :  0.1771 mW / -7.52 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0890 mW / -10.51 dBm
+Physical interface: ge-10/1/1
+    Laser bias current                        :  6.302 mA
+    Laser output power                        :  0.3610 mW / -4.42 dBm
+    Module temperature                        :  20 degrees C / 68 degrees F
+    Laser receiver power                      :  0.0002 mW / -36.99 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0790 mW / -11.02 dBm
+Physical interface: ge-10/1/2
+    Laser bias current                        :  7.130 mA
+    Laser output power                        :  0.3590 mW / -4.45 dBm
+    Module temperature                        :  27 degrees C / 80 degrees F
+    Laser receiver power                      :  0.0002 mW / -36.99 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  0.6310 mW / -2.00 dBm
+    Laser output power low warning threshold  :  0.0790 mW / -11.02 dBm
+Physical interface: ge-10/1/3
+    Laser bias current                        :  8.632 mA
+    Laser output power                        :  1.0420 mW / 0.18 dBm
+    Module temperature                        :  23 degrees C / 74 degrees F
+    Laser receiver power                      :  0.0000 mW / - Inf dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  2.5110 mW / 4.00 dBm
+    Laser output power low warning threshold  :  0.5010 mW / -3.00 dBm
+Physical interface: ge-10/1/6
+    Laser bias current                        :  34.184 mA
+    Laser output power                        :  0.6720 mW / -1.73 dBm
+    Module temperature                        :  26 degrees C / 78 degrees F
+    Laser receiver power                      :  0.1830 mW / -7.38 dBm
+    Laser output power high warning           :  Off
+    Laser output power low warning            :  Off
+    Laser output power high warning threshold :  1.2580 mW / 1.00 dBm
+    Laser output power low warning threshold  :  0.1990 mW / -7.01 dBm
