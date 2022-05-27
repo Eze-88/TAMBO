@@ -1,23 +1,4 @@
-Value Filldown interface (\S+)
-Value lane (\d)
-Value amp (\S+)
-Value OutputPower ((\S+)|(- Inf))
-Value RxPower ((\S+)|(- Inf))
-Value Filldown grados (\S+)
-Value OutputHighWarning (\S+)
-Value OutputLowWarning (\S+)
-Value RxHighWarning (\S+)
-Value RxLowWarning (\S+)
-
+Value name_vpls (VPLS+(.+))
 
 Start
-  ^Physical interface: +${interface}
-  ^\s+Lane\s+${lane} -> Continue
-  ^\s+Laser bias current\s+:\s+${amp}\s+mA
-  ^\s+Module temperature\s+:\s+${grados} -> Continue
-  ^\s+Laser output power                        :  \S+\s+mW / ${OutputPower} dBm
-  ^\s+Laser output power high warning threshold\s+:\s+\S+\s+mW\s+/\s+${OutputHighWarning}\s+dBm
-  ^\s+Laser output power low warning threshold\s+:\s+\S+\s+mW\s+/\s+${OutputLowWarning}\s+dBm
-  ^\s+Laser rx power high warning threshold.+\/\s+${RxHighWarning}\s+dBm
-  ^\s+Laser rx power low warning threshold.+\/\s+${RxLowWarning}\s+dBm
-  ^\s+Laser receiver power                      :  \S+\s+mW / ${RxPower} dBm -> Record
+  ^\S+\s+up+\s+(up|down)+\s+(.+)${name_vpls} -> Record

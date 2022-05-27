@@ -1,0 +1,39 @@
+Info: It will take a long time if the content you search is too much or the string you input is too long, you can press CTRL_C to break.
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(B): Bit-error-detection down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(ld): loop-detect trigger down
+(c): CFM down
+Interface                     PHY     Protocol Description                     
+GE1/1/18.2                    up      up       LAN TO LAN - MEDICINA INTEGRAL FITZ ROY SA - REF: 950119 - LINEA: 2870453 - VPLS: ELAN_3000388502_950119 - ACC: GLF4MU 1/1/18
+GE1/1/22                      up      down     Conexion a GLFDCNRC1  Gi1/2 _ DCN GESTION -VPLS CORE (Linea 15003877)-VPN (Linea 15003889)
+GE1/1/22.937                  up      up       DCN GESTION -VPLS CORE (Linea 15003877)-VPN (Linea 15003889)
+GE1/1/22.1045                 up      up       DCN GESTION -VPLS CORE (Linea 15003877)-VPN (Linea 15003889)
+GE1/1/22.3256                 up      up       DCN GESTION -VPLS CORE (Linea 15003877)-VPN (Linea 15003889)
+GE1/1/23.3250                 down    down     [UMG] B2B NLS0 - GOLF_G1/1 (VoIP) - REF:50000 - VPLS:NGN_UMGGOLF_3250 - L3:CRETIRO
+GE3/1/7.1126(10G)             up      up       LAN EXTENSION - CENTURYLINK ARGENTINA S.A - REF: 1001144 - VPLS: ELAN_93004_1001144
+GE6/0/4                       up      down     LAN EXTENSION - EQUANT ARGENTINA SA - REF: 939881 - LINEA: 2867930 - VPLS: ELAN_93233_939881
+GE6/0/4.1393                  up      up       LAN EXTENSION - EQUANT ARGENTINA SA - REF: 939881 - LINEA: 2867930 - VPLS: ELAN_93233_939881
+GE6/0/18.3110                 up      up       LAN EXTENSION - EMPRESA ARGENTINA DE SOLUCIONES - REF: 1017024 - LINEA: 2873419 - VPLS: ELAN_3000016602_1017024
+GE7/0/16.931                  up      up       L2L RED TECNICA CABLEVISION  VPLS-220931
+GE7/0/16.979                  up      up       Monitoreo HUB:Red PC HUB (10.200.231.0/26)  VPLS-220979
+GE7/0/21.2891                 down    down     [SBC] SBC2_sX/pX - CONEXION LAN SBC GOLF PUBLICO - VPLS:NGN_SBCBARILOCHESEGU_2891
+GE7/0/21.3436                 down    down     [SBC] SBC2_sX/pX - CONEXION LAN SBC GOLF PUBLICO - VPLS:NGN_TRAFICOSBCGOLF_3436
+GE7/1/5.1413                  *down   down     L2L - ORANGE - REF:944034 LIN:2868836 - VPLS:ELAN_93233_944034
+GE9/0/6.931                   up      up       A RED GESTORES - L2L RED TECNICA CABLEVISION 931  VPLS-220931
+GE9/0/11.3177                 down    down     [SBC] SBC1_sX/pX - LAN SBC GOLF - VPLS:NGN_AMBA01
+GE9/0/11.3251                 down    down     [SBC] SBC1_sX/pX - SBC BELGRANO - VPLS:NGN_TRAFICOSBCBELGRANO_3251
+GE9/1/4.3177                  up      up       [UMG] NGN TGW UMG8900 WORKING - Linea:9704059 - VPLS:NGN_AMBA01
+GE10/0/11.3177                down    down     [SBC] SBC2_s1/p0 - LAN SBC GOLF - VPLS:NGN_AMBA01
+GE10/0/11.3251                down    down     [SBC] SBC2_s1/p0 - SBC BELGRANO - VPLS:NGN_TRAFICOSBCBELGRANO_3251
+GE12/1/2.100(10G)             up      up       L2L - OPERADORA FERROVIARIA - Ref.:945563 - Lin.:2869296 - VPLS: ELAN_3465868701_945561
+GE16/0/4.2891                 down    down     [SBC] SBC1_sX/pX - CONEXION LAN SBC GOLF PUBLICO - VPLS:NGN_SBCBARILOCHESEGU_2891
+GE16/0/4.3436                 down    down     [SBC] SBC1_sX/pX - CONEXION LAN SBC GOLF PUBLICO - VPLS:NGN_TRAFICOSBCGOLF_3436
