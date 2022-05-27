@@ -37,3 +37,6 @@ GE10/0/11.3251                down    down     [SBC] SBC2_s1/p0 - SBC BELGRANO -
 GE12/1/2.100(10G)             up      up       L2L - OPERADORA FERROVIARIA - Ref.:945563 - Lin.:2869296 - VPLS: ELAN_3465868701_945561
 GE16/0/4.2891                 down    down     [SBC] SBC1_sX/pX - CONEXION LAN SBC GOLF PUBLICO - VPLS:NGN_SBCBARILOCHESEGU_2891
 GE16/0/4.3436                 down    down     [SBC] SBC1_sX/pX - CONEXION LAN SBC GOLF PUBLICO - VPLS:NGN_TRAFICOSBCGOLF_3436
+
+--------------------
+
