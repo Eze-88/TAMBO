@@ -13,7 +13,7 @@ with open(template) as f, open(output_txt) as f_2:  # abro los dos archivos, el 
 
     for item in dict_result:
         if item['tipo_interfaz'] == 'GE':
-            item['tipo_interfaz'] = 'GigabitEthernet'
+            item['interfaz'] = 'GigabitEthernet'+item['interfaz']
     for item in dict_result:
         print(item)
     print(len(dict_result))
