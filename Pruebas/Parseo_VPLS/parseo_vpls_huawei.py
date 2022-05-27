@@ -12,5 +12,8 @@ with open(template) as f, open(output_txt) as f_2:  # abro los dos archivos, el 
     dict_result = [dict(zip(re_table.header, pr)) for pr in result]
 
     for item in dict_result:
+        if item['tipo_interfaz'] == 'GE':
+            item['tipo_interfaz'] = 'GigabitEthernet'
+    for item in dict_result:
         print(item)
     print(len(dict_result))

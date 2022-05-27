@@ -1,5 +1,6 @@
+Value tipo_interfaz (\S\S)
 Value interfaz (\S+)
 Value name_vpls (VPLS+(.+))
 
 Start
-  ^${interfaz}\s+up+\s+(up|down)+\s+(.+)${name_vpls} -> Record
+  ^${tipo_interfaz}${interfaz}\s+up+\s+(up|down)+\s+(.+)${name_vpls} -> Record
