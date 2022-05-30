@@ -40,3 +40,32 @@ GE16/0/4.3436                 down    down     [SBC] SBC1_sX/pX - CONEXION LAN S
 
 --------------------
 
+interface GigabitEthernet1/1/22.3256 mode l2
+ description DCN GESTION -VPLS CORE (Linea 15003877)-VPN (Linea 15003889)
+ encapsulation dot1q vid 1000 to 1249
+ rewrite push vid 1000
+ trust upstream principal
+ mpls l2vc 190.225.250.50 23276
+ mpls l2vc 190.225.250.51 23277 secondary
+ mpls l2vpn redundancy master
+ trust 8021p
+#
+interface GigabitEthernet6/0/4
+ description LAN EXTENSION - EQUANT ARGENTINA SA - REF: 939881 - LINEA: 2867930 - VPLS: ELAN_93233_939881
+ undo shutdown
+ set flow-stat interval 10
+ undo dcn
+ port-queue be wfq weight 20 outbound
+ port-queue af2 wfq weight 80 outbound
+ port-queue ef pq low-latency outbound
+#
+interface GigabitEthernet6/0/4.1393 mode l2
+ description LAN EXTENSION - EQUANT ARGENTINA SA - REF: 939881 - LINEA: 2867930 - VPLS: ELAN_93233_939881
+ statistic enable mode single
+ encapsulation dot1q vid 1393
+ rewrite push vid 1000 8021p 0
+ mpls l2vc 190.225.250.50 3243
+ mpls l2vc 190.225.250.51 3253 secondary
+ trust 8021p
+ qos-profile BEST-EFFORT-400M inbound identifier none 
+#

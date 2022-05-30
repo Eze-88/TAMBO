@@ -1,0 +1,6 @@
+Value l2vc_name_ac (\d+\.\d+\.\d+\.\d+)
+Value l2vc_name_bk (\d+\.\d+\.\d+\.\d+)
+
+Start
+  #^ mpls l2vc ${l2vc_name_ac} \d+ -> Record
+  ^ mpls l2vc ${l2vc_name_bk} \d+ secondary -> Record
