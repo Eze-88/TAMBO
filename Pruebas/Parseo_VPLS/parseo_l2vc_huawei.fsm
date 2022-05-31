@@ -1,6 +1,10 @@
+Value name_vpls ((VPLS).+)
 Value l2vc_name_ac (\d+\.\d+\.\d+\.\d+)
+Value pw_name_ac (\S+)
+Value pw_name_bk (\S+)
 Value l2vc_name_bk (\d+\.\d+\.\d+\.\d+)
 
 Start
-  #^ mpls l2vc ${l2vc_name_ac} \d+ -> Record
-  ^ mpls l2vc ${l2vc_name_bk} \d+ secondary -> Record
+  #^ description\s\S+ EXTENSION - EQUANT ARGENTINA SA - REF: 939881 - LINEA: 2867930 -(\S|\s)${name_vpls} -> Record
+  ^ mpls l2vc ${l2vc_name_ac} ${pw_name_ac}+$$ -> Next
+  ^ mpls l2vc ${l2vc_name_bk} ${pw_name_bk} secondary -> Record
