@@ -6,5 +6,5 @@ Value l2vc_name_bk (\d+\.\d+\.\d+\.\d+)
 
 Start
   #^ description\s\S+ EXTENSION - EQUANT ARGENTINA SA - REF: 939881 - LINEA: 2867930 -(\S|\s)${name_vpls} -> Record
-  ^ mpls l2vc ${l2vc_name_ac} ${pw_name_ac}+$$ -> Next
+  ^ mpls l2vc ${l2vc_name_ac} ${pw_name_ac}$$
   ^ mpls l2vc ${l2vc_name_bk} ${pw_name_bk} secondary -> Record
