@@ -1,4 +1,5 @@
 Value interface (.+)
+Value descripcion (.+)
 Value name_vpls ((VPLS).+)
 Value l2vc_neigh_ac (\d+\.\d+\.\d+\.\d+)
 Value pw_name_ac (\S+)
@@ -7,6 +8,7 @@ Value pw_name_bk (\S+)
 
 Start
   ^interface ${interface} mode l2$$
+  ^ description ${descripcion} -> Continue
   ^ description\s(.+)${name_vpls}
   ^ mpls l2vc ${l2vc_neigh_ac} ${pw_name_ac}$$
   ^ mpls l2vc ${l2vc_neigh_bk} ${pw_name_bk} secondary -> Record
