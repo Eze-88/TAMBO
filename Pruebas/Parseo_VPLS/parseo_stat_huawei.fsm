@@ -1,0 +1,6 @@
+Value l2vc_stat (up|down)
+Value l2vc_name (\d+)
+
+Start
+  ^  VC state             : ${l2vc_stat}
+  ^  VC ID                : ${l2vc_name} -> Record

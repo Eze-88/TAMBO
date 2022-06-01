@@ -3,6 +3,7 @@ import textfsm
 
 #template = "c:/Users/ezequ/Repositorios_GIT/TAMBO/Pruebas/Parseo_VPLS/parseo_vpls_huawei.fsm"
 template = "c:/Users/ezequ/Repositorios_GIT/TAMBO/Pruebas/Parseo_VPLS/parseo_l2vc_huawei.fsm"
+#template = "c:/Users/ezequ/Repositorios_GIT/TAMBO/Pruebas/Parseo_VPLS/parseo_stat_huawei.fsm"
 output_txt = "c:/Users/ezequ/Repositorios_GIT/TAMBO/Pruebas/Parseo_VPLS/crudo_huawei.txt"
 
 with open(template) as f, open(output_txt) as f_2:  # abro los dos archivos, el del template y el del output del equipo

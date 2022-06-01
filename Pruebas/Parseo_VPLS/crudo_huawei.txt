@@ -69,3 +69,55 @@ interface GigabitEthernet6/0/4.1393 mode l2
  trust 8021p
  qos-profile BEST-EFFORT-400M inbound identifier none 
 #
+
+--------------------
+
+ Total LDP VC : 117     86 up       31 down
+
+ *Client Interface     : GigabitEthernet1/0/10.200
+  Administrator PW     : no 
+  AC status            : up
+  VC state             : up 
+  Label state          : 0
+  Token state          : 0
+  VC ID                : 17839
+  VC Type              : VLAN
+  session state        : up
+  Destination          : 181.88.172.6 
+  link state           : up 
+
+ *Client Interface     : GigabitEthernet1/0/10.200
+  Administrator PW     : no 
+  AC status            : up
+  VC state             : up 
+  Label state          : 0
+  Token state          : 0
+  VC ID                : 17840
+  VC Type              : VLAN
+  session state        : up
+  Destination          : 181.88.172.1 
+  link state           : up 
+
+ *Client Interface     : GigabitEthernet7/0/23.200
+  Administrator PW     : no 
+  AC status            : up
+  VC state             : up 
+  Label state          : 0
+  Token state          : 0
+  VC ID                : 19822
+  VC Type              : VLAN
+  session state        : up
+  Destination          : 181.88.172.130 
+  link state           : up 
+
+ *Client Interface     : GigabitEthernet7/0/23.200
+  Administrator PW     : no 
+  AC status            : up
+  VC state             : down 
+  Label state          : 0
+  Token state          : 0
+  VC ID                : 19823
+  VC Type              : VLAN
+  session state        : up
+  Destination          : 181.88.172.131 
+  link state           : up 
