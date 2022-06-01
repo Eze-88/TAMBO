@@ -69,6 +69,11 @@ interface GigabitEthernet6/0/4.1393 mode l2
  trust 8021p
  qos-profile BEST-EFFORT-400M inbound identifier none 
 #
+interface Virtual-Ethernet12/1/100.283
+ vlan-type dot1q 283
+ description [DATOS] GLFE1D ZTE 9210 [ADS2][L2]
+ l2 binding vsi HSI_GLFE1D
+#
 
 --------------------
 
