@@ -1,5 +1,6 @@
 from itertools import count
 import textfsm
+from tabulate import tabulate
 
 #template = "c:/Users/ezequ/Repositorios_GIT/TAMBO/Pruebas/Parseo_VPLS/parseo_vpls_huawei.fsm"
 template = "c:/Users/ezequ/Repositorios_GIT/TAMBO/Pruebas/Parseo_VPLS/parseo_l2vc_huawei.fsm"
@@ -10,6 +11,8 @@ with open(template) as f, open(output_txt) as f_2:  # abro los dos archivos, el 
     re_table = textfsm.TextFSM(f) # inicializo el parser con el template
     result = re_table.ParseText(f_2.read()) # aplico el parser al texto del output del equipo
 
+    print(tabulate(result, headers=re_table.header))
+
     #Proceso el resultado y el header para convertir los array del resultado en diccionarios
     dict_result = [dict(zip(re_table.header, pr)) for pr in result]
 
@@ -18,6 +21,6 @@ with open(template) as f, open(output_txt) as f_2:  # abro los dos archivos, el 
     #     if item['tipo_interfaz'] == 'GE':
     #         item['interfaz'] = 'GigabitEthernet' + item['interfaz']
 
-    for item in dict_result:
-        print(item)
-    print(len(dict_result))
+    # for item in dict_result:
+    #     print(item)
+    # print(len(dict_result))
