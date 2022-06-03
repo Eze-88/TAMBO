@@ -1,6 +1,6 @@
 Value interface (.+)
 Value descripcion (.+)
-Value name_vpls ((VPLS).+)
+Value Required name_vpls ((VPLS).+)
 Value l2vc_neigh_ac (\d+\.\d+\.\d+\.\d+)
 Value pw_name_ac (\S+)
 Value l2vc_neigh_bk (\d+\.\d+\.\d+\.\d+)
