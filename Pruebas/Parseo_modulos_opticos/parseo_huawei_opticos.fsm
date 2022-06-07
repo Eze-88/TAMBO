@@ -1,0 +1,9 @@
+Value puerto ((\d+)+/+(\d+)+/+(\d+))
+Value estado (up|down)
+Value duplex (\S+)
+Value tipo (\S+)
+Value wavelength (1310nm)
+Value modo (SingleMode|CopperMode)
+
+Start
+  ^ETH${puerto}+(\s+)+${estado}+(\s+)+${duplex}+(\s+)+${tipo}+(\s+)+(\S+)+(\s+)+(\S+)+(\s+)+(\S+)+(\s+)+${modo} -> Record
