@@ -1,5 +1,4 @@
 import textfsm
-from tabulate import tabulate
 
 template = "c:/Users/ezequ/Repositorios_GIT/TAMBO/Pruebas/Parseo_modulos_opticos/parseo_huawei_opticos.fsm"
 output_txt = "c:/Users/ezequ/Repositorios_GIT/TAMBO/Pruebas/Parseo_modulos_opticos/crudo_huawei.txt"
