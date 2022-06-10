@@ -1,0 +1,72 @@
+GigabitEthernet0/1/4
+Current SFP module temperature:    32.23C 
+Temperature thresholds: 
+  High Alarm Threshold:    80.00C 
+  Low Alarm Threshold:   -10.00C 
+  High Warn Threshold:    70.00C 
+  Low Warn Threshold:     0.00C 
+
+Current SFP module 3.3V supply:  3346.00mV 
+Voltage thresholds: 
+  High Alarm Threshold:  3630.00mV 
+  Low Alarm Threshold:  2970.00mV 
+  High Warn Threshold:  3465.00mV 
+  Low Warn Threshold:  3135.00mV 
+
+Current SFP module Tx bias:    18.04mA 
+TX bias thresholds:
+  High Alarm Threshold:    60.00mA 
+  Low Alarm Threshold:     0.00mA 
+  High Warn Threshold:    50.00mA 
+  Low Warn Threshold:     0.00mA 
+
+Current SFP module Tx power: -5.99dBm 
+Tx power thresholds: 
+  High Alarm Threshold:    -1.00dBm 
+  Low Alarm Threshold:   -11.00dBm 
+  High Warn Threshold:    -2.99dBm 
+  Low Warn Threshold:    -8.99dBm 
+
+Current SFP module Rx power: -40.00dBm 
+Rx power thresholds: 
+  High Alarm Threshold:    -1.00dBm 
+  Low Alarm Threshold:   -22.00dBm 
+  High Warn Threshold:    -2.99dBm 
+  Low Warn Threshold:   -20.00dBm 
+
+
+GigabitEthernet0/1/5
+Current SFP module temperature:    39.07C 
+Temperature thresholds: 
+  High Alarm Threshold:    80.00C 
+  Low Alarm Threshold:   -10.00C 
+  High Warn Threshold:    70.00C 
+  Low Warn Threshold:     0.00C 
+
+Current SFP module 3.3V supply:  3309.20mV 
+Voltage thresholds: 
+  High Alarm Threshold:  3630.00mV 
+  Low Alarm Threshold:  2970.00mV 
+  High Warn Threshold:  3465.00mV 
+  Low Warn Threshold:  3135.00mV 
+
+Current SFP module Tx bias:    17.08mA 
+TX bias thresholds:
+  High Alarm Threshold:    60.00mA 
+  Low Alarm Threshold:     0.00mA 
+  High Warn Threshold:    50.00mA 
+  Low Warn Threshold:     0.00mA 
+
+Current SFP module Tx power: -6.15dBm 
+Tx power thresholds: 
+  High Alarm Threshold:    -1.00dBm 
+  Low Alarm Threshold:   -11.00dBm 
+  High Warn Threshold:    -2.99dBm 
+  Low Warn Threshold:    -8.99dBm 
+
+Current SFP module Rx power: -40.00dBm 
+Rx power thresholds: 
+  High Alarm Threshold:    -1.00dBm 
+  Low Alarm Threshold:   -22.00dBm 
+  High Warn Threshold:    -2.99dBm 
+  Low Warn Threshold:   -20.00dBm 

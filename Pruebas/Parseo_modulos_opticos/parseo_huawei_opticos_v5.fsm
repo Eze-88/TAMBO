@@ -1,0 +1,14 @@
+Value puerto ((\S+)(\d+)+/+(\d+)+/+(\d+))
+Value temperatura (.+)
+Value power_supply (.+)
+Value tx_bias (.+)
+Value tx_power (.+)
+Value rx_power (.+)
+
+Start
+  ^${puerto}$$
+  ^Current SFP module temperature:(\s+)${temperatura}$$
+  ^Current SFP module 3.3V supply:(\s+)${power_supply}$$
+  ^Current SFP module Tx bias:(\s+)${tx_bias}
+  ^Current SFP module Tx power:(\s+)${tx_power}
+  ^Current SFP module Rx power:(\s+)${rx_power} -> Record
