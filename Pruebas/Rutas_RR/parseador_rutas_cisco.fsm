@@ -1,0 +1,11 @@
+Value status (\S+)
+Value network (\d+\.\d+\.\d+\.\d+)
+Value red (\d+)
+Value next_hop (\d+\.\d+\.\d+\.\d+)
+Value metric ()
+Value local_pref ()
+Value weight ()
+Value path ()
+
+Start
+  ^${status}  ${network}+'\'+$(\d+) -> Record
