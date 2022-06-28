@@ -1,8 +1,8 @@
 import textfsm
 from tabulate import tabulate
 
-template = "c:/Users/ezequ/Repositorios_GIT/TAMBO/Pruebas/Parseo_modulos_opticos/parseo_huawei_opticos_v5.fsm"
-output_txt = "c:/Users/ezequ/Repositorios_GIT/TAMBO/Pruebas/Parseo_modulos_opticos/crudo_huawei_v5.txt"
+template = "C:/Users/u559950/Documents/Desarrollo y programacion/TAMBO/Pruebas/Parseo_modulos_opticos/parseo_huawei_opticos.fsm"
+output_txt = "C:/Users/u559950/Documents/Desarrollo y programacion/TAMBO/Pruebas/Parseo_modulos_opticos/crudo_huawei_v5_ATN.txt"
 
 with open(template) as f, open(output_txt) as f_2:  # abro los dos archivos, el del template y el del output del equipo
     re_table = textfsm.TextFSM(f) # inicializo el parser con el template

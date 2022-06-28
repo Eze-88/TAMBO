@@ -1,0 +1,13 @@
+Value Filldown puerto ((\d+)+/+(\d+)+/+(\d+))
+Value estado (up|down)
+Value duplex (\S+)
+Value tipo (\S+)
+Value wavelength (\S+)
+Value rxpower (\S+)
+Value txpower (\S+)
+Value modo (SingleMode|CopperMode)
+Value vendorpn (\S+)
+
+Start
+  ^ETH${puerto}+(\s+)+${estado}+(\s+)+${duplex}+(\s+)+${tipo}+(\s+)+${wavelength}+(\s+)+${rxpower}+(\s+)+${txpower}+(\s+)+${modo}+(\s+)+${vendorpn} -> Continue.Record
+  ^(\s+)+${wavelength}+(\s+)+${rxpower}+(\s+)+${txpower} -> Record
